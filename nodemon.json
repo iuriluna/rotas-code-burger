@@ -1,0 +1,6 @@
+{
+
+    "exeMpa":{
+        "js": "node -r sucrase/register"
+    }
+}
