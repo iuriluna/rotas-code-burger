@@ -1,7 +1,7 @@
 import express from 'express'
 import routes from './routes.js'
 
-import './database/migrations/20230303182342-create-users.js'
+import './database/index.js'
 
 class App {
   constructor () {
