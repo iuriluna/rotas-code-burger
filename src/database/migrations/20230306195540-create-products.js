@@ -1,9 +1,9 @@
 'use strict'
 
-/*//@type {import('sequelize-cli').Migration} */
+/* //@type {import('sequelize-cli').Migration} */
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('products', {
+    await queryInterface.createTable('products', {
       id: {
         type: Sequelize.INTEGER,
         allowNull: false,

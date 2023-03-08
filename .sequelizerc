@@ -1,6 +1,4 @@
-//<script type="module" src="./add.js"></script>
 
-//import resolve from 'path'
 
 const { resolve } = require('path')
 
