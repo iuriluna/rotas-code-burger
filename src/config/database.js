@@ -3,7 +3,7 @@ module.exports = {
     host: 'localhost',
     username: 'postgres',
     password: 'postgres',
-    database: 'codeburger-project',
+    database: 'postgres-codeburger',
     define: {
         timestamp: true,
         underscored: true,
